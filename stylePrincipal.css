@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.lista{          /*elementos utilizados para posicionamneto e alinhamento*/
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    margin: auto;
+}
+
+h2{
+    padding: 30px;
+}
+
+.figure{
+    padding: 30px;
+  }
+
+  p{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 25px;
+      color:rgb(90, 89, 89);
+      padding: 30px;
+  }
+/*=========================== Responsividade para tamanho da fonte da descrição ===============================*/
+  @media only screen  and (max-width: 600px ){  
+      p{
+          font-size: 20px;
+      }
+    }
+
+    @media only screen and (max-width: 400px){
+        p{
+            font-size: 16px;
+        }
+    }

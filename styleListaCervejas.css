@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(51, 51, 51);
+}
+
+header{
+   padding-bottom: 30px;
+    color:rgb(255, 239, 22);
+    height: 30px;
+    margin: 0px;
+}
+
+h3{
+    padding: 20px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular';
+}
+
+.conteiner{
+    display: grid;
+    justify-content:flex-start;
+    align-items: center;
+    height: 65%;
+}
+
+span{
+    height: 160px;
+    width: 250px;
+    background: rgb(35, 36, 35);
+    margin: 10px;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-radius:  5px;
+    box-shadow:  5px 5px 5px rgb(116, 114, 114);
+}
+
+span:hover{
+    /*background: green;*/
+    box-shadow:  5px 5px 5px rgb(218, 231, 31);
+}
+
+span a strong{
+    color: white;
+}
+ 
+span a strong:hover{
+    color: rgb(218, 231, 31);
+}
+
+
+
+
+
+
+
+
+
